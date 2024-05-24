@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Sorteio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="sorteio.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+<header>
+<!--Menu de Navegação-->
+    <nav class="Menu">
+        <div class="nav-navbar-nav">
+            <a class="Letra1" href="#">Home <span class="sr-only">(current)</span></a>
+            <a><img src="Nerd_Robot-removebg-preview.png" class="NerdBot" alt="Nerd Robot"></a>
+            <a class="Letra2" href="#">Home</a>
+        </div>
+    </nav>    
+</header>
+
+<!--Conteudo da Pag-->
+    <div class="container">
+      <br>
+        <h1>Sorteio d</h1>
+<br>
+<!--Digitar os Numeros-->
+        <div class="form">
+          <div class="digitos">
+            <label class="caixa-de-texto" for="inputName">Digite aqui o número para sortear...</label>
+            <br>
+            <p>Entre</p><input type="text" class="form-controle" name="inputName" id="inputName"> <p>e</p> <input type="text" class="form-controle" name="inputName" id="inputName">
+          </div>  
+<!--Digitar os Numeros-->
+            <br>
+            <br>
+<!--Opções de Sorteio-->
+            <div class="dropdown open">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false" style="width: 30%; font-size: 20px;">Opções de Sorteio</button>
+              <div class="dropdown-menu" aria-labelledby="triggerId">
+                <button class="dropdown-item" href="#">Ordenar resultados em ordem crescente</button>
+                <button class="dropdown-item" href="#">Adicionar contagem regressiva</button>
+                <button class="dropdown-item" href="#">Permitir repetição de números</button>
+              </div>
+            </div>
+<!--Opções de Sorteio-->
+<br>   
+
+<!--Botão para escolher o número-->
+            <button type="button" class="btn btn-primary" style="width: 40%; height: 60px; font-size: 30px; background-color: red; color: white; border: 0px;">SORTEAR AGORA</button>
+        </div>
+    </div>
+    
+
+      
+   
+    <script src="sorteio.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
