@@ -29,9 +29,11 @@
 <!--Digitar os Numeros-->
         <div class="form">
           <div class="digitos">
-            <label class="caixa-de-texto" for="inputName">Digite aqui o número para sortear...</label>
+            <label class="caixa-de-texto" for="inputName" style="text-align: center;">Digite aqui o número para sortear entre...</label>
+            <div class="digitos-2">
             <br>
-            <p>Entre</p><input type="text" class="form-controle" name="inputName" id="inputName"> <p>e</p> <input type="text" class="form-controle" name="inputName" id="inputName">
+            <input type="text" class="form-controle" name="inputName" id="inputName"> <p style="display: inline;">e</p> <input type="text" class="form-controle" name="inputName" id="inputName">
+            </div>
           </div>  
 <!--Digitar os Numeros-->
             <br>
@@ -46,13 +48,27 @@
                 <button class="dropdown-item" href="#">Permitir repetição de números</button>
               </div>
             </div>
+
 <!--Opções de Sorteio-->
 <br>   
 
 <!--Botão para escolher o número-->
-            <button type="button" class="btn btn-primary" style="width: 40%; height: 60px; font-size: 30px; background-color: red; color: white; border: 0px;">SORTEAR AGORA</button>
+            <button type="button" class="btn btn-primary" onclick="gerar()" style="width: 40%; height: 60px; font-size: 30px; background-color: red; color: white; border: 0px;">SORTEAR AGORA</button>
+            <p class="Sorteador">Sorteador de números aleatórios gratuito!</p>
+            <p class="sorteador2">Para acessar o sorteio rápido, sem opção de salvar, clique aqui.</p>
         </div>
+        <section id="resultado">
+          <p></p>
+        </section>
+         <!--ADS-->
+    <section class="Ads">
+
+<br>
+    </section>
     </div>
+  <footer>
+    <p>Desenvolvido por Pedro &copy;</p>
+  </footer>
     
 
       
