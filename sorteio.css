@@ -2,11 +2,11 @@ body {
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
-    background-color: #0D0D0D;
+    background-color: #121212 !important;
     line-height: 1.6;
 }
 .Menu {
-    background-color: rgb(43, 42, 42);
+    background-color: #242424;
     width: 100%;
     height: 100px;
     display: flex;
@@ -44,7 +44,7 @@ a {
     height: auto;
 }
 .container{
-    background-color: #1E1E1E ;
+    background-color:  rgb(39, 37, 37);
     color:  #E0E0E0;
     width: 100%;
     height: 100vh;
@@ -73,6 +73,10 @@ a {
 .Sorteador2{
     color: rgb(77, 77, 77);
     text-align: center;
+}
+.resultado{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .Ads{
     background-color: #fff;
