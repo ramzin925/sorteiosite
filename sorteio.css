@@ -65,6 +65,21 @@ a {
     align-items: baseline;
     margin: 20px;
 }
+.Opções_Sorteio{
+    border-radius: 5px;
+    height: 30%;
+    width: 20%; 
+    font-size: 25px;
+    background-color: rgb(165, 157, 157);
+}
+.Sortear_Agora{
+    width: 40%; 
+    height: 60px; 
+    font-size: 20px; 
+    text-align: center; 
+    background-color: #21e031; 
+    border-radius: 5px;
+}
 .Sorteador{
     color: white;
     text-align: center;
@@ -95,168 +110,37 @@ footer{
     align-items: center;
     padding: 0px;
 }
-@media (min-width: 601px) and (max-width: 768px) {
-    body {
-        font-size: 15px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin: 0px;
-        background-color: #121212 !important;
-        line-height: 1.6;
-    }
-    
-    .Menu {
+
+
+@media (max-width: 900px)  {
+    body{
+    font-size: 15px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    background-color: #121212 !important;
+    line-height: 1.6;
+    text-align: center;
+
+}
+    .menu{
         background-color: #242424;
         width: 100%;
         height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
-    }
-    
-    .nav-navbar-nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    a {
-        font-size: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-decoration: none; /* Adicionado para remover sublinhado */
-    }
-    
-    .Letra1, .Letra2 {
-        color: white;
-        font-size: 30px;
-    }
-    
-    .Letra1 {
-        margin-right: auto;
-    }
-    
-    .Letra2 {
-        margin-left: auto;
-    }
-    
-    .NerdBot {
-        width: 250px;
-        height: auto;
-    }
-    
-    .container {
-        background-color: rgb(39, 37, 37);
-        color: #E0E0E0;
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        padding: 20px; /* Ajustado para padding consistente */
-    }
-    
-    .form-controle {
-        border-radius: 10px;
-        width: 60px;
-        height: 40px;
-        margin: 0 5px;
-    }
-    
-    .digitos-2 {
-        display: flex; /* Adicionado para alinhar os inputs corretamente */
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    
-    .Sorteador {
-        color: white;
-        text-align: center;
-        margin: 30px 10px;
-    }
-    
-    .Sorteador2 {
-        color: rgb(77, 77, 77);
-        text-align: center;
-    }
-    
-    .resultado {
-        font-size: 30px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    .Ads {
-        background-color: #fff;
-        width: 100%;
-        height: 30%;
-    }
-    
-    footer {
-        background-color: #0D0D0D;
-        color: #fff;
-        text-align: center;
-        font-size: 18px;
-        width: 100%;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 0px;
     }
-    
-    /* Responsividade para dispositivos móveis */
-    @media (max-width: 600px) {
-        body {
-            font-size: 12px;
-        }
-        .Menu {
-            flex-direction: column;
-            height: auto;
-        }
-        .nav-navbar-nav {
-            flex-direction: column;
-            align-items: center;
-        }
-        .NerdBot {
-            width: 150px;
-        }
-        .form-controle {
-            width: 80px;
-            height: 40px;
-        }
-        .sorteio-button {
-            width: 80%;
-            font-size: 20px;
-        }
-    }
-    
-    @media (min-width: 601px) and (max-width: 768px) {
-        body {
-            font-size: 14px;
-        }
-        .Menu {
-            height: auto;
-        }
-        .nav-navbar-nav {
-            flex-direction: column;
-            align-items: center;
-        }
-        .NerdBot {
-            width: 200px;
-        }
-        .form-controle {
-            width: 60px;
-            height: 40px;
-        }
-        .sorteio-button {
-            width: 60%;
-            font-size: 25px;
-        }
-    }
-    
-      }
-      
-    
 
+    .Opções_Sorteio{
+        width: 60%;
+    }
+
+    .Sortear_Agora{
+        width: 80%;
+        font-size: 30px;
+    }
+    
+    }
 
 
